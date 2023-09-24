@@ -25,7 +25,7 @@ while true; do
             read input_service_name
             line=$(grep "^$input_service_name:" < ./passwordfile.txt)
 
-            if [ -n "$line" ]; then #一致した文字列が存在するならtrue
+            if [ -n "$line" ]; then #grepで一致したサービス名が存在するならtrue
                 get_service_name=$(echo "$line" | cut -d ":" -f 1)
                 get_user_name=$(echo "$line" | cut -d ":" -f 2)
                 get_password_name=$(echo "$line" | cut -d ":" -f 3)
@@ -33,8 +33,10 @@ while true; do
                 echo "サービス名: $get_service_name"
                 echo "ユーザー名: $get_user_name"
                 echo "パスワード: $get_password_name"
+
             else
                 echo "そのサービスは登録されていません。"
+
             fi
             ;;
 
