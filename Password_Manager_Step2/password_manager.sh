@@ -24,8 +24,7 @@ while true; do
             echo "サービス名を入力してください："
             read input_service_name
             line=$(grep "^$input_service_name:" < ./passwordfile.txt)
-            echo "Debug: line=$line" # デバッグ出力
-            
+
             if [ -n "$line" ]; then #一致した文字列が存在するならtrue
                 get_service_name=$(echo "$line" | cut -d ":" -f 1)
                 get_user_name=$(echo "$line" | cut -d ":" -f 2)
