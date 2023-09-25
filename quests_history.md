@@ -1,3 +1,4 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Linux が何かを説明できる
 1. OS とは
 OS とは何かを、プログラミング初心者にわかるように説明してください。
@@ -123,8 +124,7 @@ drwxr-xr-x  4 root root       35 Aug 22 18:26 acpi
 -rw-r--r--  1 root root       16 Aug 22 18:27 adjtime
 -rw-r--r--  1 root root     1518 Jun  7  2013 aliases
 -rw-r--r--  1 root root    12288 Aug 29 13:31 aliases.db
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+（略）
 drwxr-xr-x  2 root root        6 Apr  9  2019 xinetd.d
 drwxr-xr-x  6 root root      149 Aug 29 13:40 yum
 -rw-r--r--  1 root root      862 Jun 23  2022 yum.conf
@@ -219,7 +219,7 @@ COPY.md  environment  node_modules  package.json  package-lock.json  README.md  
 ec2-user:~ $ echo testyade > README.md
 ec2-user:~ $ cat README.md
 testyade
-]ec2-user:~ $ cat README_SYMBOLIC.md 
+ec2-user:~ $ cat README_SYMBOLIC.md 
 testyade
 
 
@@ -463,7 +463,7 @@ ec2-user:~ $ ps aux
 USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root         1  0.0  0.3  41688  3280 ?        Ss   07:18   0:03 /usr/lib/systemd/systemd --switched-root --system --deserialize 21
 root         2  0.0  0.0      0     0 ?        S    07:18   0:00 [kthreadd]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+（略）
 root     24726  0.0  0.0 114644   724 ?        S    11:50   0:00 sleep 1
 ec2-user 24727  0.0  0.3 162296  3788 pts/4    R+   11:50   0:00 ps aux
 postfix  27137  0.0  0.4  81816  4580 ?        S    10:37   0:00 pickup -l -t unix -u
