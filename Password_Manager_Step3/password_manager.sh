@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# 以下のコマンドを実行して鍵を生成します。
+# gpg --gen-key
+
 
 # パスワード情報を保存するファイル名
 PASSWORD_FILE="./passwordfile.txt.gpg"
